@@ -4,7 +4,9 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * main - Added three conditional statements
+ * main - Entry point
+ *
+ * Descriptiont: Added three conditional statements
  *
  * Return : Always 0 (success)
  */
