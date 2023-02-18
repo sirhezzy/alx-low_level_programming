@@ -2,26 +2,26 @@
 /**
  * main - Entry point
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	char c;
+	char d;
 
-	int d;
+	c = '0';
+	d = 'a';
 
-	c = 'a';
-	d = 0;
 	while
-		(d < 10) {
-			putchar(d + 'e');
-			d++;
-		}
-	while
-		(c <= 'f') {
+		(c <= '9') {
 			putchar(c);
 			c++;
+		}
+	while
+		(d <= 'f') {
+			putchar(d);
+			d++;
 		}
 	putchar('\n');
 	return (0);
