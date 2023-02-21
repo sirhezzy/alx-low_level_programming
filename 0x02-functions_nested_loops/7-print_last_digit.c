@@ -3,7 +3,7 @@
 /**
 * print_last_digit - prints the last digit
 * @x: argument
-* @y: argument 
+* @y: argument
 * Return: 0
 */
 int print_last_digit(int x)
