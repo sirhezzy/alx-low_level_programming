@@ -4,13 +4,21 @@
 * print_last_digit - prints the last digit
 * @x: argument
 * @y: argument
-* Return: 0
+* Return: last digit
 */
 int print_last_digit(int x)
 {
+	int x;
+	int y;
+
 	if (x < 0)
 		x = -x;
+
 	y = x % 10;
-	_putchar(x + '10');
-	return (x);
+
+	if (y < 0)
+		y = -y;
+
+	_putchar(y + '10');
+	return (y);
 }
