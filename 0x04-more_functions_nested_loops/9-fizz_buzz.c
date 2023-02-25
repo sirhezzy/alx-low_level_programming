@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* main - Prints fizz and buzz depending on condition
-* Return: 0  (success)
+* main - Prints fizz and buzz
+* Return: 0 (success)
 */
 
 int main(void)
@@ -33,6 +33,6 @@ int main(void)
 	printf(" ");
 	}
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
