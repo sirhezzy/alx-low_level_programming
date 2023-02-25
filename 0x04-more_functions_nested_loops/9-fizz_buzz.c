@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * main - Prints fizz and buzz depending on condition
 * Return: 0 
