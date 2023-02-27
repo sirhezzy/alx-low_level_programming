@@ -15,3 +15,7 @@
 ## 3. I do not fear computers. I fear the lack of them.
 
 - a function that prints a string, followed by a new line, to stdout.
+
+## 4. I can only go one way. I've not got a reverse gear
+
+- a function that prints a string, in reverse, followed by a new line.
