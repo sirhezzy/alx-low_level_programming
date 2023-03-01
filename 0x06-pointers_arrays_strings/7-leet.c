@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * leet -> a leet function
- * @x: a parameter x
- * Return: x
- */
-
+* leet -> a leet function
+* @x: a parameter x
+* Return: x
+*/
 char * leet(char *x)
 {
 	int a = 0, b, l = 5;
