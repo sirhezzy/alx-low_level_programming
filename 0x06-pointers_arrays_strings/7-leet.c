@@ -8,9 +8,7 @@
 
 char * leet(char *x)
 {
-	int a = 0; 
-	int b; 
-	int l = 5;
+	int a = 0; b, l = 5;
 	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
 	char trw[5] = {'4', '3', '0', '7', '1'};
 
@@ -24,7 +22,7 @@ char * leet(char *x)
 				x[a] = trw[b];
 			b++;
 		}
-		a++
+		a++;
 	}
 	return (x);
 }
