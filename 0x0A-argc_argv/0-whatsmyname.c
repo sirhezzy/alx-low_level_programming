@@ -3,9 +3,11 @@
 
 /**
  * main - Prints its name
- * Description: a program that prints its name, followed by a new line.
+ * Description: a program that prints its name,
+ * followed by a new line.
  * @argc: count arguments
  * @argv: the arguments 
+ *
  * Return: 0
  */
 
