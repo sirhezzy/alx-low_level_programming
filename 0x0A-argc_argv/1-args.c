@@ -3,7 +3,8 @@
 
 /**
  * main - prints number of arguments
- * Description: a program that prints the number of arguments passed into it.
+ * Description: a program that prints the number of arguments 
+ *	passed into it.
  * @argc: counts command line arguments
  * @argv: Arguments
  * Return: Always 0
