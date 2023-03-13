@@ -13,7 +13,6 @@
 
 int main(int argc, char *argv[])
 {
-//Declearing variables
 	int a;
 	int b;
 	int c;
@@ -21,7 +20,7 @@ int main(int argc, char *argv[])
 	int sum;
 	char *ptr;
 
-	if (argc < 2) //counts string
+	if (argc < 2)
 	printf("0\n");
 	else
 	{
