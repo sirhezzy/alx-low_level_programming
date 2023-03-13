@@ -3,14 +3,14 @@
 
 /**
  * main - multiplies two numbers.
- * Description: a program that the first two letters of an argument and prints the product
- *	passed into it.
+ * Description: a program that the first two letters of an
+ * argument and prints the product passed into it.
  * @argc: number counts of command line arguments
  * @argv: Arguments
  * Return: Always 0
  */
- 
- int main(int argc, char *argv[])
+
+int main(int argc, char *argv[])
 {
 	int x;
 	int y;
