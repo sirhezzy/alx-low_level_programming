@@ -6,7 +6,7 @@
  * @str: string to be copied
  *
  * Return: NULL if str = NULL or if insufficient memory was available;
- *		on success, function returns a pointer to the duplicated string. 
+ * on success, function returns a pointer to the duplicated string.
  */
 
 char *_strdup(char *str)
@@ -14,8 +14,9 @@ char *_strdup(char *str)
 	char *dup;
 	int index;
 	int len;
+
 	len = 0;
-	
+
 	if (str == NULL)
 		return (NULL);
 
