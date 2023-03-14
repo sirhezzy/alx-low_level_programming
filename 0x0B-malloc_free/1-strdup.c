@@ -9,7 +9,7 @@
  *		on success, function returns a pointer to the duplicated string. 
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *dup;
 	int index;
@@ -25,12 +25,12 @@ char *_strdup(char *str);
 	dup = malloc(sizeof (char) * (len + 1));
 	
 	if (dup == NULL)
-		return (Null);
-		
+		return (NULL);
+
 	for (index = 0; str[index]; index++)
 		dup[index] = str[index];
-		
+
 	dup[len] = '\0';
-	
+
 	return (dup);
 }
