@@ -10,18 +10,19 @@ dog_t *new_dog(char *name, float age, char *owner);
  * @str: The string to be measured.
  * Return: The length of the string.
  */
+
 int _strlen(char *str)
 {
 	int len = 0;
 
 	while (*str++)
-			len++;
+		len++;
 
 	return (len);
 }
 
 /**
- * _strcopy - Copies a string pointed to by src
+ * _strcopy - copies a string pointed to by src
  * @dest: The buffer storing the string copy.
  * @src: The source string.
  * Return: The pointer to dest.
