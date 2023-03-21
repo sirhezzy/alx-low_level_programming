@@ -42,6 +42,7 @@ char *_strcopy(char *dest, char *src)
 
 /**
  * new_dog - creates a new dog.
+ * Description: creates info for a new dog.
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
