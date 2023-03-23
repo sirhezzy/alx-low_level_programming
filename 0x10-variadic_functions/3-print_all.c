@@ -10,6 +10,7 @@ void print_all(const char * const format, ...);
 
 /**
  * print_char - Prints a char.
+ * Description: A function that prints a character
  * @arg: A list of arguments pointing to
  *       the character to be printed.
  */
@@ -23,6 +24,7 @@ void print_char(va_list arg)
 
 /**
  * print_int - Prints an int.
+ * Description: A function that prints an integer
  * @arg: A list of arguments pointing to
  *       the integer to be printed.
  */
@@ -36,6 +38,7 @@ void print_int(va_list arg)
 
 /**
  * print_float - Prints a float.
+ * Description: A function that prints a float.
  * @arg: A list of arguments pointing to
  *       the float to be printed.
  */
@@ -49,6 +52,7 @@ void print_float(va_list arg)
 
 /**
  * print_string - Prints a string.
+ * Description: A function that prints a string
  * @arg: A list of arguments pointing to
  *       the string to be printed.
  */
@@ -69,6 +73,7 @@ void print_string(va_list arg)
 
 /**
  * print_all - Prints anything, followed by a new line.
+ * Description: A function that prints anything
  * @format: string of characters representing the argument types.
  * @...: variable number of arguments to be printed.
  *
