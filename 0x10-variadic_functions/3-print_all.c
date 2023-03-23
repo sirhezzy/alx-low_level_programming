@@ -73,7 +73,6 @@ void print_string(va_list arg)
 
 /**
  * print_all - Prints anything, followed by a new line.
- * Description: A function that prints anything
  * @format: string of characters representing the argument types.
  * @...: variable number of arguments to be printed.
  *
