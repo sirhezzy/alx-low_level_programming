@@ -2,7 +2,6 @@
 
 /**
  * list_len - returns the number of elements in a linked list_t list.
- * Description: elements in a linked list_t list.
  * @h: The linked list_t list.
  * @elements: a counter variable for size_t (node)
  *
