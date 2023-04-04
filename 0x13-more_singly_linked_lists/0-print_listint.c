@@ -5,7 +5,6 @@
  * print_listint - prints elements in the list
  * Description: a function that prints all elements in the list
  * @h: pointer to the head
- * @next: points to the next node
  *
  * Return: the number of nodes of the list.
  */
