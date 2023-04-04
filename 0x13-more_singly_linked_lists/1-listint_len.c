@@ -4,7 +4,6 @@
 /**
  * listint_len - returns the number of the elements
  * @h: pointer to the head
- * @next: points to the next node
  *
  * Return: the number of nodes of the list.
  */
