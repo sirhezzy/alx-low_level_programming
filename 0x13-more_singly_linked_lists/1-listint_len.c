@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * listint_len - prints elements in the list
+ * listint_len - returns the number of the elements
  * Description: a function that returns the number of elements int a list
  * @h: pointer to the head
  * @next: points to the next node
