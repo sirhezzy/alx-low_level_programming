@@ -8,10 +8,10 @@
 #include <stdio.h>
 
 /**
- * struct listint_s - singly linked list 
+ * struct listint_s - singly linked list
  * @n: integer or data
  * @next: points to the next node
- * 
+ *
  * Description: singly linked list node struct
  */
 
