@@ -6,7 +6,7 @@
  * add_nodeint - Adds a new node at the beginning of a list.
  * @head: pointer to the address of the head of the list.
  * @n: interger
- * 
+ *
  * Return: NULL or the address of the new element.
  */
 
