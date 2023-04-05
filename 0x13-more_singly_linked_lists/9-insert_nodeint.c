@@ -5,7 +5,6 @@
 
 /**
  * insert_nodeint_at_index - Inserts a new node to a listint_t at a position.
- * Description: a function that inserts a new node at a given position.
  * @head: A pointer to the address of the head
  * @n: interger for the new node
  * @idx: index of the new node
