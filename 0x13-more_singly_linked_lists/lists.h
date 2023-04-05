@@ -14,7 +14,7 @@
  *
  * Description: singly linked list node structure
  *
- * Return: 
+ * Return:
  */
 typedef struct listint_s
 {
