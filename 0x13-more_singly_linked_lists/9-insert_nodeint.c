@@ -5,6 +5,7 @@
 
 /**
  * insert_nodeint_at_index - Inserts a new node to a given position
+ * Description: a function that inserts a new node at a given position.
  * @head: A pointer to the address of the head
  * @n: interger for the new node
  * @idx: index of the new node
@@ -16,7 +17,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *newNode, *temp = *head;
 	unsigned int node;
 
-	newNode = malloc(sizeof (listint_t));
+	newNode = malloc(sizeof(listint_t));
 
 	if (newNode == NULL)
 		return (NULL);
